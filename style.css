@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    /* background-color: rgb(43, 5, 65); */
+    background-image: linear-gradient(to right, rgb(104, 18, 126), rgb(11, 11, 174));
+    color: white;
+    padding: 18px 0;
+}
+
+.logo {
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: "Playwrite AU QLD", cursive;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 17px;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    font-size: 18px;
+    font-family: "Roboto", sans-serif;
+}

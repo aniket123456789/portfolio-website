@@ -31,25 +31,53 @@ nav ul li {
     font-family: "Roboto", sans-serif;
 }
 
-.hero{
+.hero {
     height: 85vh;
     display: flex;
+    flex-wrap: wrap;
     /* background-color: rgb(196, 255, 241); */
     /* background-color: rgb(222, 196, 255); */
-    background-color: rgba(102, 244, 230, 0.321);
-    justify-content: space-around;
+    /* background-color: rgb(179, 255, 249); */
+    background-image: linear-gradient(to right, rgb(107, 222, 242), rgb(188, 107, 242));
+    justify-content: center;
     align-items: center;
     font-family: "Roboto", sans-serif;
+    gap: 50px;
 }
 
-.bold{
+.bold {
     font-weight: bolder;
 }
 
-.hero-left .one{
+.hero-left .one {
     font-size: 60px;
+    font-weight: bolder;
+    color: rgb(33, 2, 76);
+    font-weight: bolder;
+
 }
-.hero-left .two{
+
+.hero-left .two {
     font-size: 40px;
 
+}
+
+.hero-right img {
+    border-radius: 14px;
+}
+
+.btn {
+    background-color: blueviolet;
+    color: white;
+    padding: 7px 9px;
+    border: 2px solid purple;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0 2px;
+}
+
+.button-container {
+    padding: 9px 0;
 }

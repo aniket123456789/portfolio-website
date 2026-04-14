@@ -81,3 +81,40 @@ nav ul li {
 .button-container {
     padding: 9px 0;
 }
+
+.project {
+    display: flex;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(188, 107, 242), rgb(107, 222, 242));
+    font-family: "Roboto", sans-serif;
+    padding: 22px 0;
+    border-top: 1px solid white;
+}
+
+.project-image img {
+    width: 30.5vw;
+    margin: 35px;
+    border-radius: 20px;
+}
+
+.project-info {
+    display: flex;
+    flex-direction: column;
+    padding: 42px;
+
+}
+
+.project-info .text {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 0;
+    font-size: 27px;
+}
+
+.project-info p {
+    padding: 12px 0;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+}

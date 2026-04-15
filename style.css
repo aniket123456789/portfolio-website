@@ -45,6 +45,11 @@ nav ul li {
     gap: 50px;
 }
 
+.hero-left{
+    display:flex;
+    flex-direction: column;
+    gap: 10px;
+}
 .bold {
     font-weight: bolder;
 }
@@ -76,6 +81,12 @@ nav ul li {
     font-size: 18px;
     font-weight: bolder;
     margin: 0 2px;
+    transition: all 0.5s;
+}
+
+.btn:hover{
+    background-color: white;
+    color:black;
 }
 
 .button-container {
@@ -117,4 +128,12 @@ nav ul li {
 
 .row-reverse {
     flex-direction: row-reverse;
+}
+
+footer{
+    background-color: darkviolet;
+    color:white;
+    padding:20px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;    
 }

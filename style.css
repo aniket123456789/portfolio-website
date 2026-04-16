@@ -45,11 +45,12 @@ nav ul li {
     gap: 50px;
 }
 
-.hero-left{
-    display:flex;
+.hero-left {
+    display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
 .bold {
     font-weight: bolder;
 }
@@ -86,7 +87,7 @@ nav ul li {
 
 .btn:hover{
     background-color: white;
-    color:black;
+    color: black;
 }
 
 .button-container {
@@ -135,5 +136,40 @@ footer{
     color:white;
     padding:20px;
     text-align: center;
-    font-family: "Roboto", sans-serif;    
+    font-family: "Roboto", sans-serif;
+}
+
+@media screen and (max-width:950px) {
+    nav {
+        flex-direction: column;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .hero {
+        flex-direction: column-reverse;
+        gap: 25px;
+        px;
+    }
+
+    .hero-left {
+        align-items: center;
+    }
+
+    .project {
+        padding: 1px;
+    }
+}
+
+@media screen and (max-width:650px) {
+    .hero-left .one {
+        font-size: 50px;
+        text-align: center;
+    }
+
+    .hero-left .one {
+        font: size 40px;
+        ;
+        text-align: center;
+    }
 }

@@ -31,6 +31,19 @@ nav ul li {
     font-family: "Roboto", sans-serif;
 }
 
+
+nav ul li a{
+    color:white;
+    text-decoration: none;
+}
+
+nav ul li a:hover{
+    color:rgb(216, 168, 255);
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+
 .hero {
     height: 85vh;
     display: flex;
@@ -85,7 +98,7 @@ nav ul li {
     transition: all 0.5s;
 }
 
-.btn:hover{
+.btn:hover {
     background-color: white;
     color: black;
 }
@@ -131,10 +144,10 @@ nav ul li {
     flex-direction: row-reverse;
 }
 
-footer{
+footer {
     background-color: darkviolet;
-    color:white;
-    padding:20px;
+    color: white;
+    padding: 20px;
     text-align: center;
     font-family: "Roboto", sans-serif;
 }
@@ -149,7 +162,7 @@ footer{
     .hero {
         flex-direction: column-reverse;
         gap: 25px;
-        
+
     }
 
     .hero-left {
@@ -163,13 +176,26 @@ footer{
 
 @media screen and (max-width:650px) {
     .hero-left .one {
-        font-size: 50px;
+        font-size: 40px;
         text-align: center;
     }
 
     .hero-left .one {
-        font: size 40px;
-        ;
+        font: size 30px;
         text-align: center;
+    }
+
+    .project {
+        flex-direction: column;
+
+    }
+
+    .project-image img {
+        width: 80vw;
+        margin: 15px 35px;
+    }
+
+    .project-info{
+        padding:15px 23px;
     }
 }

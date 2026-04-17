@@ -199,3 +199,47 @@ footer {
         padding:15px 23px;
     }
 }
+
+.about{
+    display: flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    background-image: linear-gradient(to right, rgb(107, 222, 242), rgb(188, 107, 242));
+    font-family: "Roboto", sans-serif;
+    height:85vh;
+    justify-content: center;
+    gap:80px;
+    padding:0 220px;
+}
+.about-right{
+    display:flex;
+    flex-direction: column;
+}
+
+.about-left img{
+    height:300px;
+    border-radius: 14px;
+    
+}
+
+.about-right .about-heading{
+    font-weight:bolder;
+    font-size: 60px;
+    color: rgb(33, 2, 76);
+    
+}
+
+.about-right .about-text{
+    padding:20px 0;
+    font-size:18px;
+}
+
+/* .about-right .btn{
+    width: 200px;
+} */
+
+.button{
+    display: flex;
+    justify-content: start;
+    gap:10px;
+}
